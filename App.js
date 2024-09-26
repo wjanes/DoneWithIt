@@ -1,18 +1,14 @@
-import { StyleSheet, View } from 'react-native'
-import Card from './app/components/Card'
-import colors from './app/config/colors'
-import ListingDetailsScreen from './app/screens/ListingDetailsScreen'
-import ViewImageScreen from './app/screens/ViewImageScreen'
-import WelcomeScreen from './app/screens/WelcomeScreen'
-import MessagesScreen from './app/screens/MessagesScreen'
+import { StyleSheet } from 'react-native'
+
+import Icon from './app/components/Icon'
+import ListItem from './app/components/ListItem'
+import Screen from './app/components/Screen'
+import AccountScreen from './app/screens/AccountScreen'
 
 
 const App = () => {
   return (
-    //<WelcomeScreen />
-    //<ListingDetailsScreen />
-    //<ViewImageScreen />
-    <MessagesScreen />
+    <AccountScreen />
   )
 }
 
